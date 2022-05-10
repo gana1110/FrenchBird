@@ -1,0 +1,35 @@
+@font-face {
+  font-family: font;
+  src: url('ARCADE.TTF');
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  user-select: none;
+}
+header {
+  margin: 0 auto;
+  width: 431px;
+}
+
+h1 {
+  background: url(./media/background-title.png) 0% 0px;
+  padding: 1.2rem 0;
+  margin: 0;
+  color: #ebae2b;
+  font-family: font;
+  font-size: 60px;
+}
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 6px;
+  background: #012d67;
+  color: white;
+  border:3px solid black;
+  font-size: 25px;
+  font-family: font;
+
+}
+
